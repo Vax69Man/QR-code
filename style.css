@@ -18,7 +18,6 @@ body {
     left: 0;
     right: 0;
     text-align: center;
-    margin: 1em 0;
 }
 
 .footer p {
@@ -82,4 +81,10 @@ p {
     color: #7D889E;
     font-size: 15px;
     padding-bottom: 0.6em;
+}
+
+@media (max-width: 750px) {
+    .footer p {
+        font-size: 0.55em;
+    }
 }
