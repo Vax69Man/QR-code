@@ -1,0 +1,83 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D5E1EF;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+/* FOOTER */
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.footer p {
+    font-size: 0.8em;
+    font-weight: 700;
+    padding: 0 1em;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* QR Code */
+img {
+    max-width: 100%;
+    padding: 1em;
+    border-radius: 30px;
+    /* transform: ; */
+}
+
+.main-flex {
+    margin: 0;
+    height: 100vh;
+    display: grid;             
+    place-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 320px;
+    background-color: white;
+    border-radius: 1em;
+    margin: auto;
+}
+
+.inside-text {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 1.5em;
+    /* border: solid 2px blueviolet; */
+}
+
+h1 {
+    margin-top: 0;
+    color: #1F314F;
+    font-size: 22px;
+    font-weight: 750;
+}
+
+p {
+    color: #7D889E;
+    font-size: 15px;
+    padding-bottom: 0.6em;
+}
