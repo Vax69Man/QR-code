@@ -57,9 +57,11 @@ img {
     align-items: center;
     flex-direction: column;
     max-width: 320px;
+    max-height: 497px;
     background-color: white;
     border-radius: 1em;
     margin: auto;
+    margin: 4em 2em;
 }
 
 .inside-text {
